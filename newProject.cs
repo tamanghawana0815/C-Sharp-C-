@@ -31,7 +31,7 @@ namespace Calculator
 
         private void login_Click(object sender, EventArgs e)
         { 
-            try
+           /* try
             { 
             con.Open();
             string query = "Insert into stu_details values('Deepak Khadka','kapan','9851196592','kist','BIT')";
@@ -43,7 +43,7 @@ namespace Calculator
             catch(Exception ex)
             {
                 MessageBox.Show("Error:" + ex.InnerException);
-            }
+            }*/
             string data1 = input1.Text;
             string data2 = input2.Text;
             if (data1 == "kistcollege")
